@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "PG Tenant",
+    "slug": "pg-tenant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": { "bundleIdentifier": "com.yourcompany.pgtenant", "infoPlist": { "NSPhotoLibraryUsageDescription": "Upload KYC documents and photos", "NSCameraUsageDescription": "Take photos of documents" } },
+    "android": { "package": "com.yourcompany.pgtenant", "permissions": ["CAMERA", "READ_MEDIA_IMAGES"] },
+    "plugins": ["expo-secure-store", ["expo-image-picker", { "photosPermission": "Upload KYC documents and photos" }]]
+  }
+}
