@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PG Platform
 
 Production-ready PG (paying guest) management platform. **No dummy or seed data anywhere.** Everything is stored in MongoDB Atlas, files live in Cloudinary, and screens update live through Socket.io.
@@ -91,3 +92,7 @@ Razorpay's live activation asks for a website or app link. You can **skip that s
 2. **Deploy the web app** (Vercel / Netlify, free). Build command `npm run build`, output `dist`, env `VITE_API_URL=https://your-api-domain`. `vercel.json` and `public/_redirects` are already included for page routing. Also set `VITE_BUSINESS_NAME`, `VITE_SUPPORT_EMAIL`, `VITE_SUPPORT_PHONE`, `VITE_BUSINESS_ADDRESS` so the policy pages show your real contact details.
 3. Give Razorpay your deployed web link. Razorpay reviews that the site shows **Terms & Conditions, Privacy Policy, Refund/Cancellation Policy and Contact Us**. These are built in at `/terms`, `/privacy`, `/refund-policy`, `/contact` and linked from the home page. Read them and adjust the wording to your business (ideally with a lawyer) before submitting.
 4. In Razorpay add the webhook `https://your-api-domain/api/webhooks/razorpay`, switch to Live keys, and put them in the API's environment variables.
+=======
+# Namma-PG
+Namma PG 
+>>>>>>> f1871873d0b0df39ad79179dd6e8e86d47ece6d2
